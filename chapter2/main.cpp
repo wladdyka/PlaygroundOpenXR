@@ -239,9 +239,8 @@ while (XrPollEvents()) {
         m_sessionState = sessionStateChanged->state;
         break;
     }
-    default: {
+    default:
         break;
-    }
     }
 }
     }
